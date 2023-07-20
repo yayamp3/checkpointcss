@@ -1,0 +1,200 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! header !!!!!!!!!!!!!!!!!!!!!!!!!!*/
+body {
+  background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #000;
+  border-style: solid;
+  border-color: blue;
+}
+/*logo*/
+.logo {
+  width: 150px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/*navbar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL9xtNjCUlza8IcDDfvmnWP6lJ5gjrwc9cqQ&usqp=CAU);
+  display: inline;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.btn1:hover {
+  transform: scale(1.25);
+}
+.btn1 {
+  wdth: auto;
+  height: 50px;
+  border-radius: 20px;
+  transition: 300ms ease;
+  background-color: white;
+  color: rgb(208, 40, 99);
+}
+.bck1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSViEdKR6ht872HNnmeKS1l18yVSMSYmhdMRg&usqp=CAU);
+}
+
+/* !!!!!!!!!!main!!!!!!!!!! */
+
+main {
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+}
+/*home*/
+html,
+body {
+  height: 100%;
+}
+
+#home {
+  width: auto;
+  background-image: url("https://images.alphacoders.com/127/1275722.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.homet {
+  width: 600px;
+  height: 90px;
+  background-image: url(https://img.freepik.com/vecteurs-libre/fond-feuilles-tropicales-pour-zoom_23-2148580778.jpg);
+  color: white;
+  font-size: 40px;
+}
+/*about*/
+html,
+body {
+  height: 100%;
+}
+
+#about {
+  text-align: center;
+  align-content: center;
+  width: auto;
+  background-image: url("https://media.istockphoto.com/id/1280385511/fr/photo/fond-color%C3%A9.jpg?b=1&s=612x612&w=0&k=20&c=t_qoqbrzKXsdfkGIp1h80ApEcTVDNuZVN6QuHBdaJLs=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.aboutT {
+  background-image: url(https://img.freepik.com/photos-premium/disposition-creative-couleurs-fluorescentes-faite-feuilles-tropicales-couleurs-neon-plat-generees-par-ia_201606-8096.jpg);
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  align-content: center;
+}
+.aboutt {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-content: center;
+}
+/* !!!!!!!!!!!!!!!!!!work!!!!!!! */
+
+#work {
+  text-align: center;
+  align-content: center;
+  width: auto;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/809/4/987/neon-macbook-pro-stock-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.workT {
+  background-image: url(https://img.freepik.com/photos-premium/fond-ecran-3d-abstrait-texture-neon-teinte-violette-bleue_856565-437.jpg?w=2000);
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  align-content: center;
+}
+.aboutt {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-content: center;
+}
+/* !!!!!contact!!!! */
+#contact {
+  text-align: center;
+  align-content: center;
+  width: auto;
+  background-image: url(bureau.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contactT {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVEEvZTthjcl1dan0ck4G5j9wpOXpLEbTrQ&usqp=CAU);
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  align-content: center;
+}
+.btn2:hover {
+  transform: scale(1.25);
+}
+.btn2 {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  transition: 300ms ease;
+  background-color: white;
+  color: rgb(208, 40, 99);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.25),
+    -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+  font-size: 25px;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  color: rgb(208, 40, 99);
+  box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, 0.25),
+    -10px 10px 25px 0px rgba(39, 200, 255, 0.5);
+  margin: 0 30px 0 30px;
+  padding: 20px;
+  border-radius: 100%;
+  transition: 300ms ease;
+  background-color: white;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+.icons {
+  font-size: 100px;
+  justify-content: center;
+  display: flex;
+  margin: 50px 20px;
+  color: rgb(208, 40, 99);
+}
